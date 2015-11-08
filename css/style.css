@@ -11,3 +11,5 @@ body { padding-top: 3em; }
 /* for each of the sections of the page */
 #about-me { padding-top: 6em; }
 #contact-me { padding-top: 6em; }
+/* modifications for my footer */
+.my-footer { padding: 1em 0em 1em 0em; font-size: 0.8em; }
