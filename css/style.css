@@ -1,0 +1,13 @@
+/* Lower the main text below the navigation bar */
+body { padding-top: 3em; }
+/* each row should be a big screen in itself */
+.row { height: 768px; }
+/* Spacing above quote */
+.my-quote { margin-top: 5em; }
+/* Quote text font, size, and color */
+.my-quote>p { font-family: "Lora", serif; font-size: 3em; color: #aaa; }
+/* Quote attribution font size and color */
+.my-quote>footer { font-size: 1em; color: #bbb; }
+/* for each of the sections of the page */
+#about-me { padding-top: 6em; }
+#contact-me { padding-top: 6em; }
