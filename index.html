@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Divya Mistry">
-    <title>A Pen by  Captain Anonymous</title>
+    <title>Divya Mistry</title>
     <link href='https://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
-    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -16,7 +16,7 @@
       <div class="container">
       <!-- contents of navigation -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false">
             <!-- add the toggle button with 3 horizontal lines/bars -->
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -25,11 +25,12 @@
           </button>
           <a class="navbar-brand" href="#">Divya Mistry</a>
         </div>
-        <div class="navbar-collapse collapse" id="navbar">
+        <div class="navbar-collapse collapse" id="mynavbar">
           <!-- add items to the nav bar -->
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Home</a></li>
             <li><a href="#about-me">About</a></li>
+            <li><a href="#now">Now</a></li>
             <li><a href="#contact-me">Contact</a></li>
           </ul>
         </div>
@@ -41,7 +42,7 @@
         <div class="col-xs-12">
           <!-- name title -->
           <h1>Divya Mistry</h1>
-          <h4>I *will* bioinformatics you</h1>
+          <h4>I *will* bioinformatics you</h4>
           <hr>
         </div>
         <!-- social icons -->
@@ -54,7 +55,7 @@
         <div class="col-xs-12">
           <blockquote class="blockquote-reverse my-quote">
             <p>The fool doth think he is wise, but the wise man knows himself to be a fool.</p>
-            <footer>William Shakespeare in <cite title="India">As You Like It</cite></footer>
+            <footer>William Shakespeare in <cite title="As You Like It">As You Like It</cite></footer>
           </blockquote>
         </div>
       </div>
@@ -68,6 +69,33 @@
           <img class="img-rounded" height="250px" alt="Divya's face" src="https://lh3.googleusercontent.com/kQABk1XZ1HLRrtfkZA9tZH8WDmLgDqWIG44v-IVASL65N1hWX30">
         </div>
       </div>
+      <div class="row" id="now">
+      <!-- my "now" page -->
+        <div class="col-xs-3">
+        </div>
+        <div class="col-xs-6">
+          <p class="lead">What I'm doing now</p>
+          <p>
+            I'm in the San Francisco Bay Area, working as a software engineer and finishing my dissertation for PhD. My time is unequally divided among the following projects:
+            <ul>
+              <li>being a full-time software engineer for an <a href="http://www.salesforce.com/marketing-cloud/features/predictive-internet-intelligence/" target="_blank">awesome team</a></li>
+              <li>spending 8-10 hours on finishing my <a href="https://www.linkedin.com/in/divyamistry#publications" target="_blank">dissertation and research papers</a> for my <a href="http://divyam.public.iastate.edu/" target="_blank">PhD at Iowa State University</a></li>
+              <li>keeping up with Big Data world through <a href="http://bigdatauniversity.com/courses/" target="_blank">Big Data University</a></li>
+              <li><a href="http://www.freecodecamp.com/" target="_blank">learning</a> web front-end development to make not-too-ugly web sites</li>
+            </ul>
+            When I am not doing any of the above, I am
+            <ul>
+              <li>spending time with the friends and family, eating good food and celebrating my return to California</li>
+              <li>learning about <a href="http://getsalesforcebenefits.com/your-benefits" target="_blank">health, finance, and other grown-up things</a> in life</li>
+              <li>listening to <a href="https://twitter.com/divyamistry/status/683410370057211905" target="_blank">podcasts</a></li>
+              <li>very slowly getting back into <a href="https://www.headspace.com/" target="_blank">meditation</a></li>
+            </ul>
+            All of those keep me occupied and entertained for now. I'll keep this updated as things change.
+          </p>
+        </div>
+        <div class="col-xs-3">
+        </div>
+      </div>
       <div class="row text-center" id="contact-me">
         <!-- contact me -->
         <div class="col-xs-6"> <!-- contact me photo -->
@@ -76,11 +104,9 @@
         <div class="col-xs-6"> <!-- contact me text -->
           <address>
             <strong>Divya Mistry</strong><br>
-            1620 Howe Hall<br>
-            Iowa State University<br>
-            Ames, IA 50011<br>
-            <a href="https://medium.com/@divm" title="Medium">divm</a>
-            <a href="https://twitter.com/divyamistry/status/578446466798108672" title="Let's type">Kermit</a>
+            <a href="mailto:divyam@acm.org">divyam@acm.org</a><br>
+            Feel free to get in touch with me via email. I reply to all emails.<br>
+            <!-- I'm on Medium at <a href="https://medium.com/@divm" title="Medium">divm</a><br> -->
           </address>
         </div>
       </div>
@@ -88,5 +114,8 @@
         <p>&copy; 2015. Divya Mistry</p>
       </div>
     </div>
+    <!-- supporting javascript -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </body>
 </html>
